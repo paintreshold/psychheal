@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    background: white;
+    
+
+}
+
+
+
+.header {
+
+margin: 0;
+position: fixed;
+ 
+ 
+width: 100vw;
+height: 5vw;
+display: flex;
+justify-content: flex-end;
+ 
+
+
+}
+
+.hdr {
+    color: #2e3037;
+    font-size: medium;
+    
+    display: flex;
+    border-radius: 10%;
+    width: 5vw;
+    margin-right: 2vw; 
+    text-align: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.container {
+width: 100vw;
+height: 100vh;
+display: flex;
+align-items: center;
+ 
+margin: 0;
+ 
+}
+
+.kkk{
+
+width: 50%;
+height: 100%;
+
+
+}
+
+
+.kkp {
+display: flex;
+justify-content: flex-end;
+flex-direction: row;
+width: 50vw;
+margin-right: 2vw;
+text-decoration: none;
+}
+ 
+
+
+.main {
+    color: #2e3037;
+    margin-top:1px;
+display: flex;
+margin-left: 3vw;
+width: 50vw;
+height: 50vw;
+align-items: center;
+justify-content: center;
+
+}
+
+.lll {
+ 
+width: 45vw;
+height: 20vw;
+align-items: center;
+font-size: 37px;
+}
+
+
+.images{
+width: 50vw;
+height: 100vh;
+padding-left: 0;
+
+
+}
+
+
+
+.butt {
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+color: #2e3037;
+width: 10vw;
+height: 9vh;
+border: 2px solid #2e3037;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.uuu {
+text-decoration: none;
+ 
+
+
+
+}
+
+
+
+
+.formdiv {
+
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+
+
+
+
+}
+
+
+
+.form {
+visibility: hidden;
+top: 4vw;
+position: fixed;
+border-radius: 20%;
+display: flex;
+color: azure;
+justify-content: center;
+align-items: center; 
+background-color: #2e3037 ;
+width: 18vw;
+height: 20vw;
+flex-direction: column;
+left: 80vw;
+}
+
+
+input{
+border-radius: 10%;
+margin-bottom: 20px;
+border-style: none;
+text-align: center;
+}
+
+
+
+
+.btn{
+ 
+color:#2e3037;
+text-decoration: wavy;
+font-family: 'Montserrat', sans-serif;
+background-color: azure;
+margin-top: 10px;
+border-style: none;
+border-radius: 40%; 
+
+}
+
+.menuSmallIcon{
+position: absolute;
+width: 50px;
+height: 50px;
+visibility: hidden;
+
+}
+
+.imagees{
+width: 50px;
+height: 50px;
+}
+
+#nn {
+border-style: none;
+margin-top: 14.8px;
+background-color: white;
+color:#2e3037;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.crosstext {
+opacity: 70%;
+height: 1vw;
+text-align: center;
+font-size: 14px;
+width: 17vw;
+margin-bottom: 1vw;
+margin-top: 0;
+}
+
+.burger{
+display: flex;
+left: -100vw;
+position: absolute;
+width: 100vw;
+height: 100vh;
+background-image: url(https://papik.pro/uploads/posts/2021-11/1637549966_1-papik-pro-p-odinochestvo-risunok-1.jpg);
+
+margin-left: 0;
+justify-content: center;
+align-items: center;
+}
+ 
+.kks {
+ 
+flex-direction: column;
+justify-content: center;
+display: flex;
+align-items: center;
+
+}
+
+.hdf {
+ 
+margin-top: 40px; 
+width: 100px;
+ 
+border: 1px solid #2e3037;
+font-size: 15px;
+background-image: url(https://i.pinimg.com/474x/d7/bb/54/d7bb54c3279e4629388f580e1154a385.jpg);
+
+
+}
+
+ul.hdf{
+align-items: center;
+width: 100px;
+height: 50.4px;
+}
+
+
+#nm {
+    text-decoration: none;
+    border-style: none;
+    margin-top: 1px;
+    background-color: white;
+    color:#2e3037;
+    font-family: 'Montserrat', sans-serif;
+     
+}
+
+
+#nt.hdf {
+height: 50.4px;    
+text-decoration: none;
+width: 140px;
+border:1px solid #2e3037;
+font-weight: lighter;
+background: none;
+font-family: 'Montserrat', sans-serif;
+font-size: 1em;
+background-image: url(https://i.pinimg.com/474x/d7/bb/54/d7bb54c3279e4629388f580e1154a385.jpg);
+margin-top: 40px;
+}
+
+#nmy {
+    height: 50.4px;    
+    text-decoration: none;
+    width: 140px;
+    text-align: center;
+    font-weight: lighter;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+   
+}
+
+@media (max-width: 1024px) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        margin: 0;
+         
+        }
+
+
+   .header {
+    position: fixed;
+    left: 10px;
+    top: 0px;
+    justify-content: space-evenly;
+
+   }
+
+   .crosstext {
+    opacity: 70%;
+    height: 0.5vw;
+    text-align: center;
+    font-size: 14px;
+    width: 17vw;
+    margin-bottom: 0vw;
+    margin-top: 0;
+    background-color: aquamarine;
+    }
+
+
+   .lll {
+ 
+    width: 100vw;
+    height: 20vw;
+    align-items: center;
+    font-size: 25px;
+    }
+    
+    .butt {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        color: #2e3037;
+        width: 100%;
+        height: 9vh;
+        border: 2px solid #2e3037;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        }
+        
+
+
+
+
+        .form {
+            visibility: hidden;
+            top: 40vw;
+            
+            position: fixed;
+            border-radius: 20%;
+            display: flex;
+            color: azure;
+            justify-content: center;
+            align-items: center; 
+            background-color: #2e3037 ;
+            width: 70vw;
+            height: 80vw;
+            flex-direction: column;
+            left: 30vw;
+            }
+            
+
+
+   .images {
+
+    width: 100vw;
+    height: 50vh;
+    
+    }
+
+ 
+
+
+
+   
+}
+
+
+@media (max-width: 400px) {
+    .header {
+      
+     justify-content: center;
+     margin-right: 0px;
+     margin-left: 0px;
+    }
+
+    .container {
+
+        width: 100vw;
+        margin-right: 0px;
+        
+
+
+
+
+    }
+
+
+
+
+    .images {
+
+        width: 100vw;
+        height: 50vh;
+        
+        }
+
+
+
+    #nn {
+    margin-top: 11px;     
+    margin-left: 25px;
+    margin-right: 0px;
+    text-decoration: none;
+    visibility: hidden;
+
+
+    }
+
+    .hdr {
+        font-size: 2.9vw;
+        margin-left: 10px;
+        margin-right: 0px;
+        visibility: hidden;
+    }
+
+    .menuSmallIcon{
+        transition: 1s;
+        visibility: visible;
+        right: 25px;
+        top: 5px;
+        z-index: 100;
+        }
+        
+.burger{
+transform: translate(0px, 0px);
+transition: 1s  ;
+top: 0px;
+
+
+}
+
+ }
+
+
+
+
+@keyframes burger{
+
+from{
+
+    left: -100vw;
+
+
+}
+
+
+
+
+to{
+
+    left: 0vw;
+     
+
+}
+
+}
+
+@keyframes burgerClose{
+
+    from{
+    
+        left: 0vw;
+    
+    
+    }
+    
+    
+    
+    
+    to{
+    
+        left: -100vw;
+         
+    
+    }
+    
+    }
+
+
+
